@@ -1,0 +1,58 @@
+@font-face{
+    font-family:"Open Sans";
+    src: url('../fonts/OpenSans.ttf')
+}
+@font-face{
+    font-family:"Huntsman";
+    src: url('../fonts/Huntsman.otf')
+}
+.content{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    height: auto;
+    border: 1px solid black;
+    background-color: burlywood;
+}
+.good{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.goodContent{
+    margin: 10px 0px auto;
+    text-align: center;
+    padding: 10px;
+}
+.goodName {
+    font-weight: bold;
+    margin: 0 auto;
+}
+.buyBtn{
+    align-items: center;
+}
+.goodFooter{
+    padding: 0px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.toBasket{
+    width: 100px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.toBasketBtn{
+    text-decoration: none;
+}
+.goodNameRef{
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    color: #5e5e5e;
+}

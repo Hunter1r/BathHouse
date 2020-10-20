@@ -1,0 +1,127 @@
+@font-face{
+    font-family:"Open Sans";
+    src: url('../fonts/OpenSans.ttf')
+}
+@font-face{
+    font-family:"Huntsman";
+    src: url('../fonts/Huntsman.otf')
+}
+
+boby,html {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    color: #5e5e5e;
+}
+header {
+    width: 100%;
+    height: 50px;
+    padding: 10px 0;
+    border-bottom: 2px solid rgba(255,255,255,0.1);
+    background: url('../images/background.jpg') no-repeat;
+    background-size: cover;
+        
+}
+#headerInside {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: url('../images/the-bathhouse.svg') no-repeat;
+    background-size: contain;
+}
+#companyName {
+    font-family: "Huntsman", sans-serif;
+    float: left;
+    margin-left: 15px;
+    font-size: 22px;
+    line-height: 50px;
+    color: #fff;
+}
+#navWrap {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 50px;
+    float: right;
+    
+}
+
+#navWrap a {
+    border-left: 1px solid rgba(255,255,255,0.1);
+    border-right: 1px solid rgba(255,255,255,0.1);
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    padding: 0 20px;
+    height: 70px;
+    line-height: 70px;
+    text-decoration: none;
+}
+
+#navWrap a:last-child {
+    border-left: none;
+}
+#navWrap a:hover{
+    background: rgba(255,255,255,0.2);
+}
+
+.photo_name{
+    width: 230px;
+    height: 230px;
+}
+
+/* css for good.php page*/
+
+.content{
+    background-color: beige;
+    border: 1px solid black;
+}
+.goodCard{
+    display: flex;
+    justify-content: center;
+}
+.image {
+    width: 400px;
+}
+.goodImage{
+    width: 400px;
+}
+.other{
+    margin: 10px;
+}
+.infoParagraph{
+    margin: 0 auto;
+}
+
+/* css for basket.php page*/
+table{
+    border-collapse: collapse;
+}
+th, td {
+    padding: 3px;
+    border: 1px solid black;
+}
+
+/* css for Controller=user action login */
+.label_lk{
+    float: left;
+    width: 150px;
+}
+.input_lk{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.wrap{
+    margin: 15px;
+}
+.submit{
+    margin: 0 0 0 15px;
+    width: 80px;
+    height: 30px;
+}
